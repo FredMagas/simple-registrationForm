@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cadastro</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="container container-flex">
+            <img src="images/user-solid.svg" alt="Cadastro">
+            <h1>Formulário Cadastro</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <form class="container">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="João da Silva" required>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="seuemail@email.com" required>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" required>
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf" required>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Rua Formulario, 88" required>
+            <label for="cep">CEP:</label>
+            <input type="text" name="cep" id="cep" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <img src="images/undraw_fill_form_re_cwyf.svg" alt="Formulario Cadastro">
+        <h2>&copy; Frederico Magalhães - 2023</h2>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
